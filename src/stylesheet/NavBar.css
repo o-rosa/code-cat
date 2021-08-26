@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans&display=swap');
+
+.menu{
+    background-color: #172323;
+    padding: 4px 0px 0px 0px !important;
+}
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-left: 25px;
+    font-size: 25px;
+    color: #e8dcdc;
+    transition: color 0.2s;
+}
+
+
+.gato{
+    color: #859b9b;
+    transition: color 0.2s;
+}
+
+.gato-invert{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.navbar-brand:hover .logo {
+    color: #aaaeae;
+    transition: color 0.2s;
+
+}
+
+.navbar-brand:hover .gato {
+    color: #e8dcdc;
+    transition: color 0.2s;
+}
+
+
+
+.texto-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #e8dcdc;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.texto-menu:hover{
+    color: #aaaeae;
+    transition: color 0.1s;
+}
+
+.apoie{
+    background-color: #E8DCDC !important;
+    color: #070B0B !important;
+    padding: 0px 30px 0px 25px;
+    font-size: 14px;
+    white-space: nowrap;
+    width: 240px;
+    text-align: left;
+    
+}
+.spanHover{
+    display: none;
+}
+.apoie:hover{
+    background-color: #AAAEAE !important;
+    transition: background-color 0.3s;
+}
+.apoie:hover .spanHover{
+    display: initial;
+}
+.apoie:hover .spanNone{
+    display: none;
+}
+
+.doneteIcon{
+    color: gray;
+}
+
+.navbar-toggler{
+    margin-right: 15px !important;
+
+}
+.navbar-toggler:focus{
+    border-radius: 2px !important; 
+    box-shadow: 0 0 0 2px !important;
+    color: #859b9b !important;
+}
+
+
+
+@media (max-width: 991px) {
+    .texto-menu{ 
+      padding: 8px !important;
+      text-align: left !important;
+      margin-left: -10px;
+    }
+    .nav-link{
+        padding: 0px !important;
+        text-align: left !important;    
+    }
+    .navbar-nav{
+        margin-top: 10px;
+        margin-left: 30px;
+        padding-bottom: 16px !important;
+    }
+    .apoie{
+        margin-right: 20px;
+        width: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 992px) {
+    
+    .navbar-nav{
+        position: absolute;
+        right: 0px;
+        top: 9px; 
+        
+    }
+
+}
+

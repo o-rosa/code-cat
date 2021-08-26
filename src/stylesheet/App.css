@@ -1,0 +1,30 @@
+/*
+
+FONT: 
+font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans&display=swap');
+
+CORES:
+ - Principal #172323
+ - Mais Claro #AAAEAE
+ - Mis Escuro #070B0B
+ - Inverso #E8DCDC
+ - Variante Rosa #FBBCBC
+ - Variante Agua #7DBDBD
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans&display=swap');
+
+
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(20deg, #070b0b 0%, #172323 80%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h1{
+  color: #e8dcdc;
+}
