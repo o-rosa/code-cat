@@ -2,7 +2,7 @@ import '../stylesheet/App.css';
 
 
 
-function Articles() {
+function Posts() {
   return (
       <div >
         <h1>Aqui aparecera coisas que escrevi</h1>
@@ -10,4 +10,4 @@ function Articles() {
   );
 }
 
-export default Articles;
+export default Posts;

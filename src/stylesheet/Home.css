@@ -1,6 +1,9 @@
 .cafe-cat{
-    max-width: 400px;
-    margin-top: 200 ;
-    
-  }
+  max-width: 400px;
+  margin-top: 200 ;
   
+}
+h2 {
+  font-size: 1em !important;
+  color: #E8DCDC;
+}

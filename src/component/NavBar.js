@@ -16,7 +16,7 @@ const NavBar = (props) => {
     //<Navbar className="menu" expand="lg"></Navbar>
 
     <nav className="menu navbar navbar-expand-lg navbar-dark" expand="lg">
-      <a href="/" className="navbar-brand"> <div className='logo'><FontAwesomeIcon icon={faCat} className="gato gato-invert"/>  CodeCat  <FontAwesomeIcon icon={faCat} className="gato"/></div> </a>
+      <a href="/code-cat" className="navbar-brand"> <div className='logo'><FontAwesomeIcon icon={faCat} className="gato gato-invert"/>  CodeCat  <FontAwesomeIcon icon={faCat} className="gato"/></div> </a>
       <button aria-label="Toggle navigation"onClick={toggle} type="button" class="ml-auto navbar-toggler">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,17 +33,17 @@ const NavBar = (props) => {
               </Link>
             </li>
             <li className="nav-item" onClick={toggle}>
-              <Link to="/articles" className="nav-link">
-                <div className="texto-menu"><FontAwesomeIcon icon={faBook}/> Articles</div>
+              <Link to="/posts" className="nav-link">
+                <div className="texto-menu"><FontAwesomeIcon icon={faBook}/> Posts</div>
               </Link>
             </li>
             <li className="nav-item" onClick={toggle}>
-              <Link to="#" className="nav-link">
+              <Link to="/projects" className="nav-link">
                 <div className="texto-menu"><FontAwesomeIcon icon={faFolder}/> Projects</div>
               </Link>
             </li>
             <li className="nav-item" onClick={toggle}>
-              <Link to="#" className="nav-link">
+              <Link to="/contact" className="nav-link">
                 <div className="texto-menu"> <FontAwesomeIcon icon={faPhoneAlt}/> Contact</div>
               </Link>
             </li>

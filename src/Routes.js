@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { Switch, Route, HashRouter} from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
-import Articles from './pages/Articles'
+import Posts from './pages/Posts'
+import Projects from './pages/Projects'
+import Contact from './pages/Contact'
 
 class Routes extends Component {
     render() {
@@ -16,8 +18,16 @@ class Routes extends Component {
                     <About />
                 </Route>
                 
-                <Route exact path="/articles">
-                    <Articles />
+                <Route exact path="/posts">
+                    <Posts />
+                </Route>
+
+                <Route exact path="/projects">
+                    <Projects />
+                </Route>
+                
+                <Route exact path="/contact">
+                    <Contact />
                 </Route>
             </Switch>
         );
