@@ -19,7 +19,7 @@ CORES:
 
 .App {
   text-align: center;
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(20deg, #070b0b 0%, #172323 80%);
   font-family: 'Montserrat', sans-serif;
 }

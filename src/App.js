@@ -1,18 +1,28 @@
 import './stylesheet/App.css';
 import NavBar  from './component/NavBar';
+import React, { useEffect } from "react";
 
-import Routes from './Routes'
-import { BrowserRouter } from 'react-router-dom'
-import Donete from './component/Donate';
+import Routes from './Routes';
 
 
 function App() {
+
+  useEffect(() => {
+    var alturaDiv = document.getElementById('App').offsetHeight;
+    var alturaPagina = window.screen.height;
+    if(alturaDiv > alturaPagina){
+      document.getElementById('App').style.height = "100%";
+    }else{
+      document.getElementById('App').style.height = "100vh";
+    } 
+  }, []);
+
+
   return (
-      <div className="App">
+      <div className="App" id="App">
             <NavBar />
-            
             <Routes />
-            <Donete />
+
       </div>
   );
 }

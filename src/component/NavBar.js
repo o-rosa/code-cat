@@ -17,8 +17,8 @@ const NavBar = (props) => {
 
     <nav className="menu navbar navbar-expand-lg navbar-dark" expand="lg">
       <a href="/" className="navbar-brand"> <div className='logo'><FontAwesomeIcon icon={faCat} className="gato gato-invert"/>  CodeCat  <FontAwesomeIcon icon={faCat} className="gato"/></div> </a>
-      <button aria-label="Toggle navigation"onClick={toggle} type="button" class="ml-auto navbar-toggler">
-        <span class="navbar-toggler-icon"></span>
+      <button aria-label="Toggle navigation"onClick={toggle} type="button" className="ml-auto navbar-toggler">
+        <span className="navbar-toggler-icon"></span>
       </button>
       <Collapse isOpen={isOpen} navbar>
         <ul className="navbar-nav">
@@ -48,7 +48,7 @@ const NavBar = (props) => {
               </Link>
             </li>
             <li className="nav-item" onClick={toggle}>
-              <Link to="#" className="nav-link">
+              <Link to="/donate" className="nav-link">
                 <div className="texto-menu apoie"><FontAwesomeIcon icon={faDonate} className="doneteIcon"/><span className="spanNone">&nbsp;&nbsp; Donate to this project :)</span ><span className="spanHover">&nbsp;&nbsp; Donate to this project :D</span></div>
               </Link>
             </li>

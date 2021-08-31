@@ -3,6 +3,8 @@ import { Switch, Route, HashRouter} from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 import Articles from './pages/Articles'
+import Donate from './pages/Donate';
+
 
 class Routes extends Component {
     render() {
@@ -18,6 +20,10 @@ class Routes extends Component {
                 
                 <Route exact path="/articles">
                     <Articles />
+                </Route>
+
+                <Route exact path="/donate">
+                    <Donate />
                 </Route>
             </Switch>
         );
