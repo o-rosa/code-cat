@@ -12,6 +12,7 @@ class Routes extends Component {
             <Switch>
                 <Route exact path="/">
                     <Home />
+                    <Donate />
                 </Route>
 
                 <Route exact path="/about">

@@ -7,15 +7,7 @@ import Routes from './Routes';
 
 function App() {
 
-  useEffect(() => {
-    var alturaDiv = document.getElementById('App').offsetHeight;
-    var alturaPagina = window.screen.height;
-    if(alturaDiv > alturaPagina){
-      document.getElementById('App').style.height = "100%";
-    }else{
-      document.getElementById('App').style.height = "100vh";
-    } 
-  }, []);
+
 
 
   return (
