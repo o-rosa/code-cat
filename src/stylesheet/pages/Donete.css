@@ -1,0 +1,36 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate{
+    background-color: #E8DCDC;
+    position: relative;
+    width:950px !important;
+    height: 80vh;   
+    min-height: 500px;
+    border-radius: 5px;
+}
+.titulo{
+    font-size: 2em;
+    font-weight: bold;
+    color: 172323;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+    .container {
+        height: 1100px;
+    }
+    
+    .donate{
+        height: 950px;   
+    }   
+    
+}

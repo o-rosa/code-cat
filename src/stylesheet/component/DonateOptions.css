@@ -1,0 +1,66 @@
+.opcoes{
+    margin-top: 30px;
+}
+
+
+.caixa {
+    width: 600px !important;
+    height: 100px;
+    text-align: left;
+    display: inline-flex;
+    margin:5px;
+    position: relative;
+    border: 4px ridge #172323 ;
+    align-items: center;
+    
+}
+
+.text{
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #172323;
+    margin-left: 100px;
+}
+
+.icon-option{
+    position: absolute;
+    top:20px;
+    left: 30px;
+    height: 3em !important;
+    width: 3em !important;
+    color: #172323;
+    
+}
+
+.icon-arrow{
+    position: absolute;
+    top:24px;
+    right: 30px;
+    height: 2.3em !important;
+    width: 2.3em !important;
+    color: #E8DCDC;
+}
+
+.caixa:hover{
+    cursor: pointer;
+    background-color: #F0E4E4;
+}
+.caixa:hover .icon-arrow{
+    color: #172323;
+    transition: color 2s;
+}
+
+@media (max-width: 991px) {
+    .caixa {
+        width: 60vw !important;
+        
+    }
+
+}
+@media (max-width: 660px) {
+    .text {
+        font-size: 2.1em;
+        
+    }
+
+}

@@ -1,4 +1,4 @@
-import '../stylesheet/Home.css';
+import '../stylesheet/pages/Home.css';
 import cafeCat from '../images/cafe-cat.png'
 
 
